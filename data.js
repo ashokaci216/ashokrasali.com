@@ -17,7 +17,7 @@ window.FUN_FACTS = [
     fact: "Healthy food brand Salad Days announced expansion of its cloud kitchen network to 50+ locations by the end of 2025.",
     why: "Demand for healthy, delivery-first brands is rising—coverage density becomes the growth lever.",
     insight: "In delivery brands, speed + consistency beats menu size. SOPs win repeat orders.",
-    img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=70"
+    img: "./images/salad-days.jpg"
   },
   {
     topic: "news",
