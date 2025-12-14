@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel & QSR Ops Insights | Your Name</title>
+
+  <!-- IMPORTANT: correct path -->
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand">
+        <b>Ashok Rasali</b>
+        <span>Hotel & QSR Operations Insights</span>
+      </div>
+
+      <div class="actions">
+        <a class="btn" href="#insights">Insights</a>
+        <a class="btn" href="#about">About</a>
+        <a class="btn" href="#contact">Contact</a>
+        <a class="btn primary" id="btnWhatsAppTop" href="#">WhatsApp</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-card">
+        <div class="kicker">Practical, on-ground hotel operations thinking</div>
+        <h1>Fun facts + real systems that make restaurants scalable.</h1>
+        <p class="sub">
+          I share short, useful insights on kitchen workflows, SOPs, food-cost control,
+          consistency, and QSR-style process discipline — in a simple way.
+        </p>
+
+        <!-- These are labels (non-clickable) -->
+        <div class="chips">
+          <span class="chip">Kitchen SOPs</span>
+          <span class="chip">Food Cost & Portioning</span>
+          <span class="chip">Central Kitchen Thinking</span>
+          <span class="chip">Speed of Service</span>
+          <span class="chip">Hygiene Systems</span>
+        </div>
+      </div>
+
+      <div class="side">
+        <div class="mini">
+          <h3>How to use this page</h3>
+          <p>Pick a topic, read 1 minute, and apply it in your outlet. Later, this becomes your full consultant website.</p>
+        </div>
+
+        <div class="mini" id="contact">
+          <h3>Contact</h3>
+          <p>
+            WhatsApp: <b>+91 9967978209</b><br/>
+            Email: <b>ashok@ashokrasali.com</b><br/>
+            City: <b>Mumbai / Navi Mumbai</b>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTROLS -->
+    <section class="controls" id="insights">
+      <input class="input" id="search" placeholder="Search (e.g., SOP, cost, momo, domino’s, central kitchen)" />
+      <select id="filter">
+        <option value="all">All topics</option>
+        <option value="operations">Operations</option>
+        <option value="costing">Costing</option>
+        <option value="scaling">Scaling</option>
+        <option value="hygiene">Hygiene</option>
+        <option value="news">News</option>
+      </select>
+      <button class="btn" id="btnReset" type="button">Reset</button>
+    </section>
+
+    <!-- FUN FACTS -->
+    <section class="grid" id="cards"></section>
+
+    <!-- WEEKLY IMAGE SPOTLIGHT -->
+    <section class="spotlight">
+      <div class="spotlight-head">
+        <h2>Weekly Image Spotlight</h2>
+        <p>One interesting image from the hotel & food world — with a practical takeaway.</p>
+      </div>
+      <section class="spotlight-grid" id="spotlight"></section>
+    </section>
+
+    <!-- ABOUT ASHOK RASALI -->
+  <section class="about" id="about">
+  <div class="about-card">
+    <h2>About Ashok Rasali</h2>
+    <p class="about-role">Hospitality Operations • Costing • Systems</p>
+
+    <p class="about-text">
+      Built on real restaurant experience — from the floor to leadership — with a strong focus
+      on practical operations, food costing, and scalable systems for restaurants and QSRs.
+    </p>
+
+    <p class="about-text">
+      I work close to the ground, solving real problems inside kitchens, service areas,
+      and back-office systems — not from theory or templates.
+    </p>
+
+    <h3>Professional Journey</h3>
+    <p class="about-text">
+      I bring over two decades of hands-on experience across Indian and international
+      hospitality environments, spanning operations, procurement, management, and entrepreneurship.
+    </p>
+
+    <ul class="timeline">
+      <li><b>5 Spice (2001–2009)</b> — Started as a Service Associate and grew into a managerial role.</li>
+      <li><b>C’est La Vie (CLV), Bandra (2009–2010)</b> — Purchase Manager handling procurement systems and cost control.</li>
+      <li><b>Karibuni Lounge, Entebbe International Airport (2010–2015)</b> — Lounge Manager in an international airport hospitality environment in Uganda East Africa.</li>
+      <li><b>Green Basket, Dadar (2015–2018)</b> — Co-Founder involved in business setup and daily operations.</li>
+      <li><b>China Bite (2018–2024)</b> — Senior team association with operational and systems-based support.</li>
+      <li><b>Shivneri Fresh, Navi Mumbai (2022–Present)</b> — Co-Founder managing wholesale food supply, costing discipline, and hotel supply systems.</li>
+    </ul>
+
+    <hr class="about-divider" />
+
+    <h3>Selected Work & Professional Associations</h3>
+    <ul class="work">
+      <li><b>China Bite</b> — Operations support, multi-outlet systems, website development, monthly P&L tracking.</li>
+      <li><b>Lotus & Fire, Belapur</b> — Menu design and restaurant operations.</li>
+      <li><b>Fusion Sushi Co</b> — Menu design and website design.</li>
+    </ul>
+  </div>
+</section>
+
+    <footer>
+      <div>
+        © <span id="year"></span> Ashok Rasali — Hotel & QSR Operations Insights.
+        </div>
+    </footer>
+  </main>
+
+  <button class="wa-float" id="btnWhatsApp" type="button">WhatsApp</button>
+
+  <!-- IMPORTANT: data first, then app -->
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
