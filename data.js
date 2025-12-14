@@ -3,6 +3,30 @@
 // =========================
 
 window.FUN_FACTS = [
+{
+    topic: "news",
+    label: "News",
+    fact: "Third Wave Coffee hit 200 cafés with its new Mumbai store, and plans 100 more cafés by 2026.",
+    why: "Milestones like 200 outlets signal strong unit economics + repeatable SOP-led rollout.",
+    insight: "Scale happens when training + supply chain are standardized, not when marketing is loud.",
+    img: "https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+    topic: "news",
+    label: "News",
+    fact: "Healthy food brand Salad Days announced expansion of its cloud kitchen network to 50+ locations by the end of 2025.",
+    why: "Demand for healthy, delivery-first brands is rising—coverage density becomes the growth lever.",
+    insight: "In delivery brands, speed + consistency beats menu size. SOPs win repeat orders.",
+    img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=1200&q=70"
+  },
+  {
+    topic: "news",
+    label: "News",
+    fact: "Nothing Before Coffee reported strong growth and is expanding with a target to cross 150 outlets by FY2026.",
+    why: "Affordable café chains are scaling fast because they combine mass pricing with systemized execution.",
+    insight: "Funding and franchising follow operational clarity—recipes, batching, service time, and audits.",
+    img: "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=1200&q=70"
+  },
   {
     topic: "scaling",
     label: "Scaling",
@@ -50,16 +74,8 @@ window.FUN_FACTS = [
     why: "Without station responsibility and checklist-based handoffs, shared kitchens become chaotic fast.",
     insight: "Clarity of stations = speed + fewer errors.",
     img: "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=1600&q=70"
-  },
-  {
-  topic: "news",
-  label: "News",
-  fact: "An Indian QSR brand announced expansion into 100+ new outlets.",
-  why: "Rapid expansion shows investor confidence in system-driven food brands.",
-  insight: "Funding follows SOP strength, not just taste.",
-  img: "./images/news-qsr-expansion.jpg"
-}
-];
+  }
+  ];
 
 window.WEEKLY_SPOTLIGHT = [
   {
