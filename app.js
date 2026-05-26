@@ -17,6 +17,9 @@ function renderFunFacts(list){
   list.forEach(item => {
     const card = document.createElement("article");
     card.className = "card";
+    card.setAttribute("role", "button");
+    card.setAttribute("tabindex", "0");
+    card.setAttribute("aria-label", `Read insight: ${safeText(item.fact)}`);
     card.innerHTML = `
       <div class="thumb">
         <img src="${safeText(item.img)}" alt="${safeText(item.label)} image" loading="lazy" />
@@ -26,8 +29,16 @@ function renderFunFacts(list){
         <h3 class="fact">${safeText(item.fact)}</h3>
         <p class="why"><b>Why it matters:</b> ${safeText(item.why)}</p>
         <div class="insight"><b>Consultant insight:</b> ${safeText(item.insight)}</div>
+        <span class="read-more">Read insight →</span>
       </div>
     `;
+    card.addEventListener("click", () => openInsightModal(item));
+    card.addEventListener("keydown", event => {
+      if(event.key === "Enter" || event.key === " "){
+        event.preventDefault();
+        openInsightModal(item);
+      }
+    });
     cardsEl.appendChild(card);
   });
 }
@@ -51,25 +62,30 @@ function renderSpotlight(list){
   if(!el) return;
 
   el.innerHTML = "";
+  const item = list[0];
+  if(!item) return;
 
-  list.forEach(item => {
-    const card = document.createElement("article");
-    card.className = "spot-card";
-    card.innerHTML = `
+  el.innerHTML = `
+    <article class="spot-feature">
       <div class="spot-img">
         <img src="${safeText(item.img)}" alt="${safeText(item.title)}" loading="lazy" />
       </div>
       <div class="spot-body">
         <div class="spot-meta">
           <span class="spot-pill">${safeText(item.tag)}</span>
-          <span class="spot-date">${safeText(item.date)}</span>
+          ${item.date ? `<span class="spot-date">${safeText(item.date)}</span>` : ""}
         </div>
         <h3 class="spot-title">${safeText(item.title)}</h3>
         <p class="spot-text">${safeText(item.text)}</p>
       </div>
-    `;
-    el.appendChild(card);
-  });
+    </article>
+
+    <aside class="spot-takeaway">
+      <span class="spot-kicker">Operational takeaway</span>
+      <h3>What operators can learn</h3>
+      <p>${safeText(item.takeaway)}</p>
+    </aside>
+  `;
 }
 
 function setupWhatsApp(){
@@ -89,6 +105,55 @@ function setupWhatsApp(){
   }
 }
 
+function setupHeaderScroll(){
+  const header = document.querySelector("header");
+  if(!header) return;
+
+  const syncHeader = () => {
+    header.classList.toggle("is-scrolled", window.scrollY > 8);
+  };
+
+  syncHeader();
+  window.addEventListener("scroll", syncHeader, { passive: true });
+}
+
+function openInsightModal(item){
+  const modal = $("insightModal");
+  if(!modal) return;
+
+  $("modalTag").textContent = safeText(item.label);
+  $("modalTitle").textContent = safeText(item.fact);
+  $("modalText").textContent = safeText(item.why);
+  $("modalTakeaway").textContent = safeText(item.insight);
+
+  modal.classList.remove("hidden");
+  modal.setAttribute("aria-hidden", "false");
+  document.body.classList.add("modal-open");
+  $("modalClose")?.focus();
+}
+
+function closeInsightModal(){
+  const modal = $("insightModal");
+  if(!modal || modal.classList.contains("hidden")) return;
+
+  modal.classList.add("hidden");
+  modal.setAttribute("aria-hidden", "true");
+  document.body.classList.remove("modal-open");
+}
+
+function setupInsightModal(){
+  const modal = $("insightModal");
+  if(!modal) return;
+
+  $("modalClose")?.addEventListener("click", closeInsightModal);
+  modal.addEventListener("click", event => {
+    if(event.target === modal) closeInsightModal();
+  });
+  document.addEventListener("keydown", event => {
+    if(event.key === "Escape") closeInsightModal();
+  });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   renderFunFacts(window.FUN_FACTS || []);
   renderSpotlight(window.WEEKLY_SPOTLIGHT || []);
@@ -106,4 +171,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if(y) y.textContent = new Date().getFullYear();
 
   setupWhatsApp();
+  setupHeaderScroll();
+  setupInsightModal();
 });

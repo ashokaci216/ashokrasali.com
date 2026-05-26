@@ -91,57 +91,99 @@
     <!-- FUN FACTS -->
     <section class="grid" id="cards"></section>
 
+    <div class="modal hidden" id="insightModal" aria-hidden="true">
+      <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" id="modalClose" type="button" aria-label="Close insight">×</button>
+        <span class="modal-tag" id="modalTag"></span>
+        <h2 id="modalTitle"></h2>
+        <p class="modal-text" id="modalText"></p>
+        <div class="modal-takeaway">
+          <b>Operator takeaway</b>
+          <p id="modalTakeaway"></p>
+        </div>
+      </div>
+    </div>
+
     <!-- WEEKLY IMAGE SPOTLIGHT -->
     <section class="spotlight">
       <div class="spotlight-head">
         <h2>Weekly Image Spotlight</h2>
-        <p>One interesting image from the hotel & food world — with a practical takeaway.</p>
+        <p>One visual story from hospitality, with one practical operator lesson.</p>
       </div>
       <section class="spotlight-grid" id="spotlight"></section>
     </section>
-
     <!-- ABOUT ASHOK RASALI -->
   <section class="about" id="about">
-  <div class="about-card">
-    <h2>About Ashok Rasali</h2>
-    <p class="about-role">Hospitality Operations • Costing • Systems</p>
+    <div class="about-card">
+      <div class="about-top">
+        <div class="about-intro">
+          <span class="about-label">Experience &amp; Background</span>
+          <h2>About Ashok Rasali</h2>
+          <p class="about-text lead">
+            Built on real restaurant experience, from the floor to leadership, with a strong focus on practical operations, food costing, and scalable systems for restaurants and QSRs.
+          </p>
+          <p class="about-text">
+            I work close to the ground, solving real problems inside kitchens, service areas, and back-office systems, not from theory or templates.
+          </p>
+          <div class="skill-chips" aria-label="Core skills">
+            <span>Operations</span>
+            <span>Procurement</span>
+            <span>Cost Control</span>
+            <span>SOPs</span>
+            <span>QSR Systems</span>
+          </div>
+        </div>
 
-    <p class="about-text">
-      Built on real restaurant experience — from the floor to leadership — with a strong focus
-      on practical operations, food costing, and scalable systems for restaurants and QSRs.
-    </p>
+        <div class="about-summary" aria-label="Experience summary">
+          <div class="summary-card">
+            <b>20+ years</b>
+            <span>Hands-on hospitality experience</span>
+          </div>
+          <div class="summary-card">
+            <b>Ground-up</b>
+            <span>Floor, kitchen, service, and back office</span>
+          </div>
+          <div class="summary-card">
+            <b>Systems focus</b>
+            <span>Costing, supply, SOPs, and scalable operations</span>
+          </div>
+        </div>
+      </div>
 
-    <p class="about-text">
-      I work close to the ground, solving real problems inside kitchens, service areas,
-      and back-office systems — not from theory or templates.
-    </p>
+      <div class="about-section">
+        <h3>Professional Journey</h3>
+        <p class="about-text compact">
+          Experience across Indian and international hospitality environments, spanning operations, procurement, management, and entrepreneurship.
+        </p>
 
-    <h3>Professional Journey</h3>
-    <p class="about-text">
-      I bring over two decades of hands-on experience across Indian and international
-      hospitality environments, spanning operations, procurement, management, and entrepreneurship.
-    </p>
+        <ol class="timeline">
+          <li><b>5 Spice (2001-2009)</b><span>Started as a Service Associate and grew into a managerial role.</span></li>
+          <li><b>C'est La Vie (CLV), Bandra (2009-2010)</b><span>F&amp;B Manager handling procurement systems and cost control.</span></li>
+          <li><b>Karibuni Lounge, Entebbe International Airport (2010-2015)</b><span>Food &amp; Beverage Manager - Lounge in an international airport hospitality environment in Entebbe, Uganda East Africa.</span></li>
+          <li><b>Green Basket, Dadar (2015-2018)</b><span>Co-Founder involved in business setup and daily operations.</span></li>
+          <li><b>China Bite (2018-2024)</b><span>Senior team association with operational and systems-based support.</span></li>
+          <li><b>Shivneri Fresh, Navi Mumbai (2022-Present)</b><span>Co-Founder managing wholesale food supply, costing discipline, and hotel supply systems.</span></li>
+        </ol>
+      </div>
 
-    <ul class="timeline">
-      <li><b>5 Spice (2001–2009)</b> — Started as a Service Associate and grew into a managerial role.</li>
-      <li><b>C’est La Vie (CLV), Bandra (2009–2010)</b> — F&B Manager handling procurement systems and cost control.</li>
-      <li><b>Karibuni Lounge, Entebbe International Airport (2010–2015)</b> — Food & Beverage Manager – Lounge in an international airport hospitality environment in Entebbe, Uganda East Africa.</li>
-      <li><b>Green Basket, Dadar (2015–2018)</b> — Co-Founder involved in business setup and daily operations.</li>
-      <li><b>China Bite (2018–2024)</b> — Senior team association with operational and systems-based support.</li>
-      <li><b>Shivneri Fresh, Navi Mumbai (2022–Present)</b> — Co-Founder managing wholesale food supply, costing discipline, and hotel supply systems.</li>
-    </ul>
+      <div class="about-section">
+        <h3>Selected Work &amp; Professional Associations</h3>
+        <div class="work-grid">
+          <div class="work-item"><b>China Bite</b><span>Operations support, multi-outlet systems, website development, and monthly P&amp;L tracking.</span></div>
+          <div class="work-item"><b>Lotus &amp; Fire, Belapur</b><span>Menu engineering, digital menu website, and restaurant operations.</span></div>
+          <div class="work-item"><b>Fusion Sushi Co</b><span>Menu engineering and website design.</span></div>
+        </div>
+      </div>
+    </div>
 
-    <hr class="about-divider" />
-
-    <h3>Selected Work & Professional Associations</h3>
-    <ul class="work">
-      <ul class="work">
-        <li><b>China Bite</b> — Operations support, multi-outlet systems, website development, and monthly P&L tracking.</li>
-        <li><b>Lotus & Fire, Belapur</b> — Menu engineering, digital menu website, and restaurant operations.</li>
-        <li><b>Fusion Sushi Co</b> — Menu engineering and website design.</li>
-    </ul>
-  </div>
-</section>
+    <div class="about-cta">
+      <div>
+        <p>Need help improving restaurant operations, costing, or SOP systems?</p>
+        <span>Practical support for SOPs, food costing, procurement, and scalable kitchen operations.</span>
+      </div>
+      <button class="about-cta-button" type="button" onclick="document.getElementById('btnWhatsApp')?.click()">Talk on WhatsApp</button>
+    </div>
+  </section>
 
     <footer>
       <div>
