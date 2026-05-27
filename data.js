@@ -68,13 +68,14 @@ window.FUN_FACTS = [
     img: "./images/hygiene-audit-sop.jpg"
   },
   {
-    topic: "operations",
-    label: "Operations",
-    fact: "Shared kitchens work only when stations are clearly owned.",
-    why: "In cloud kitchens and compact QSR spaces, unclear handovers create delays, wrong packing, missing items, and staff confusion during peak hours.",
-    insight: "Station ownership, prep labels, dispatch checks, and shift responsibility reduce mistakes before customers notice them.",
-    img: "./images/shared-kitchen-stations.jpg"
-  }
+  topic: "costing",
+  label: "Costing",
+  fact: "Online aggregator sales look strong on the dashboard, but net payout tells the real story.",
+  why: "Commission, platform discounts, packaging cost, GST impact, cancellations, and peak-hour pressure can reduce the actual money received.",
+  insight: "Online growth should be judged by net payout and item-level margin, not only by order value or order count.",
+  img: "./images/online-aggregator-commission.jpg",
+  details: "Online platforms bring visibility, orders, and customer reach, especially for QSRs, cloud kitchens, and delivery-focused restaurants. But the dashboard sales figure is not the final earning. After aggregator commission, platform discounts, packaging cost, GST impact, cancellations, and operational pressure, the actual payout can be much lower than expected.\n\nMany restaurants face this issue today: online order volume grows, but profit does not grow at the same speed. The reason is simple — every item must still carry food cost, packaging cost, staff time, kitchen load, and deductions. If pricing is not planned properly, a restaurant can look busy online but still lose margin.\n\nThe practical way is to check online business in four parts: gross sale, net payout, food cost, and item-level margin. Only then can a restaurant decide which items are profitable online and which items need price correction, portion control, packaging review, or direct-order strategy."
+}
 ];
 
 window.WEEKLY_SPOTLIGHT = [
