@@ -1,93 +1,16 @@
-// =========================
-// CONTENT (you edit only this file)
-// =========================
-
 window.FUN_FACTS = [
-  {
-    topic: "news",
-    label: "News",
-    fact: "Domino’s India added 69 stores as delivery volumes improved.",
-    why: "Large QSR chains are still expanding, but growth now depends on value pricing, delivery speed, and tight store-level execution.",
-    insight: "Expansion works only when every new store can repeat the same service time, offer discipline, and product consistency.",
-    img: "./images/dominos-india-store-expansion.jpg"
-  },
-  {
-    topic: "news",
-    label: "News",
-    fact: "Olive Garden is entering India with a large restaurant expansion plan.",
-    why: "International dining brands are targeting Indian metros, but premium casual dining needs strong training, procurement, and service systems.",
-    insight: "Imported brands succeed when the local operating system is as strong as the global brand name.",
-    img: "./images/olive-garden-india-expansion.jpg"
-  },
-  {
-    topic: "news",
-    label: "News",
-    fact: "Boba Bhai is targeting 250–300 stores and ₹200 crore revenue.",
-    why: "Fast-growing beverage and QSR brands are moving beyond delivery kitchens into physical outlets and stronger backend infrastructure.",
-    insight: "A small-format brand scales faster when the menu, supply chain, and outlet format are simple enough to repeat.",
-    img: "./images/boba-bhai-qsr-expansion.jpg"
-  },
-  {
-    topic: "news",
-    label: "News",
-    fact: "South Korea’s bb.q Chicken is preparing its India rollout.",
-    why: "Global fried chicken brands entering India will need local sourcing, clear franchise training, and strict product consistency from day one.",
-    insight: "Franchise growth needs more than demand. It needs recipe control, oil management, batching, and audit discipline.",
-    img: "./images/bbq-chicken-india-debut.jpg"
-  },
-  {
-    topic: "operations",
-    label: "Operations",
-    fact: "Delivery brands need demand forecasting, not only more outlets.",
-    why: "Online orders rise and fall by hour, day, offer, weather, and platform visibility. Without planning, kitchens face stockouts, wastage, and rush-hour delays.",
-    insight: "Better forecasting protects food cost, prep planning, and customer experience at the same time.",
-    img: "./images/delivery-demand-forecasting.jpg"
-  },
-  {
-    topic: "costing",
-    label: "Costing",
-    fact: "Portion control is still the fastest profit protection system.",
-    why: "A few extra grams per order may look small, but across hundreds of orders it quietly damages monthly margin more than many discounts.",
-    insight: "The best costing system starts with fixed portioning, standard ladles, trained staff, and daily checks.",
-    img: "./images/portion-control-profit.jpg"
-  },
-  {
-    topic: "scaling",
-    label: "Scaling",
-    fact: "Central prep helps brands keep the same taste across outlets.",
-    why: "When base gravies, sauces, marinades, and prep batches are standardized, outlet teams can finish faster with fewer taste variations.",
-    insight: "Central kitchen thinking is not only about volume. It is about control, training, and repeatable quality.",
-    img: "./images/central-kitchen-standardization.jpg"
-  },
-  {
-    topic: "hygiene",
-    label: "Hygiene",
-    fact: "Hygiene audits are becoming part of brand protection.",
-    why: "Customers may try a restaurant because of offers, but they return only when cleanliness, packaging, and food handling feel reliable.",
-    insight: "Hygiene should be managed like revenue protection, not treated as a back-office checklist.",
-    img: "./images/hygiene-audit-sop.jpg"
-  },
-  {
-  topic: "costing",
-  label: "Costing",
-  fact: "Online aggregator sales look strong on the dashboard, but net payout tells the real story.",
-  why: "Commission, platform discounts, packaging cost, GST impact, cancellations, and peak-hour pressure can reduce the actual money received.",
-  insight: "Online growth should be judged by net payout and item-level margin, not only by order value or order count.",
-  img: "./images/online-aggregator-commission.jpg",
-  details: "Online platforms bring visibility, orders, and customer reach, especially for QSRs, cloud kitchens, and delivery-focused restaurants. But the dashboard sales figure is not the final earning. After aggregator commission, platform discounts, packaging cost, GST impact, cancellations, and operational pressure, the actual payout can be much lower than expected.\n\nMany restaurants face this issue today: online order volume grows, but profit does not grow at the same speed. The reason is simple — every item must still carry food cost, packaging cost, staff time, kitchen load, and deductions. If pricing is not planned properly, a restaurant can look busy online but still lose margin.\n\nThe practical way is to check online business in four parts: gross sale, net payout, food cost, and item-level margin. Only then can a restaurant decide which items are profitable online and which items need price correction, portion control, packaging review, or direct-order strategy."
-}
+  { topic: "news", label: "News", fact: "More Sales, Less Profit: The McDonald’s India Warning", why: "Westlife Foodworld's FY25 restaurant revenue rose 4%, yet annual profit fell. More sales did not automatically create more bottom-line value.", insight: "Track outlet contribution after food, labour, rent, discounts, delivery and marketing—not sales growth alone.", img: "./images/mcdonalds-india-margin-warning.jpg" },
+  { topic: "news", label: "News", fact: "How KFC and Pizza Hut Improved Profit While Costs Increased", why: "Yum China's 2025 results show restaurant profit and margins improving through sales growth and operating efficiencies, even with higher delivery costs.", insight: "Cost pressure needs a system response: simplify work, improve throughput and protect the menu mix instead of making random cuts.", img: "./images/kfc-pizza-hut-cost-control.jpg" },
+  { topic: "operations", label: "Operations", fact: "Protect Profitable Customers, Not Only High-Sales Customers", why: "A large bill can still carry heavy discounts, costly customisation, long table time or expensive delivery fees that reduce its real contribution.", insight: "Review contribution by customer channel and order type. Revenue is useful, but repeatable net profit deserves protection.", img: "./images/online-aggregator-commission.jpg" },
+  { topic: "operations", label: "Operations", fact: "Supplier Rate Comparison Must Become a Daily System", why: "Rates, pack sizes, quality and availability can change quickly. An occasional comparison allows small purchasing leaks to continue unnoticed.", insight: "Maintain a daily rate sheet for priority items and compare like-for-like quality, yield, credit terms and delivery reliability.", img: "./images/delivery-demand-forecasting.jpg" },
+  { topic: "costing", label: "Costing", fact: "The 0.73% Margin Warning", why: "On sales of ₹31,505, a gross profit of only ₹231 is approximately 0.73%. One small unplanned cost can erase the entire return.", insight: "Do not approve a sale on turnover alone. Check recipe cost, packaging, discount, tax and fulfilment cost before confirming the price.", img: "./images/portion-control-profit.jpg" },
+  { topic: "costing", label: "Costing", fact: "Landing Cost Is More Than the Supplier’s Invoice Rate", why: "Freight, handling, tax treatment, breakage, trimming loss, storage and credit terms can make the lowest quoted rate the costlier purchase.", insight: "Compare suppliers on usable landed cost per unit, not invoice price. Buying decisions should reflect what finally reaches the plate.", img: "./images/central-kitchen-standardization.jpg" },
+  { topic: "scaling", label: "Scaling", fact: "A Restaurant Website Should Be an Operational Tool", why: "A useful website can keep menus, hours, locations, reservations and direct-order paths accurate while reducing repeated guest questions.", insight: "Treat the website as a live service counter: assign ownership, update information quickly and measure enquiries, bookings and direct orders.", img: "./images/boba-bhai-qsr-expansion.jpg" },
+  { topic: "scaling", label: "Scaling", fact: "Standardisation Must Come Before Expansion", why: "A second outlet multiplies unclear recipes, inconsistent training and purchasing gaps. Growth exposes weak systems rather than fixing them.", insight: "Document recipes, yields, service steps, checks and training first. Expand only when another team can repeat the same result.", img: "./images/olive-garden-india-expansion.jpg" },
+  { topic: "hygiene", label: "Hygiene", fact: "A Cleaning Checklist Is Not a Complete Hygiene System", why: "A ticked sheet cannot confirm correct chemicals, dilution, contact time, food temperatures, handwashing or action on repeated failures.", insight: "Combine checklists with standards, training, records, verification and corrective action. Hygiene control needs evidence, not only signatures.", img: "./images/hygiene-audit-sop.jpg" }
 ];
-
 window.WEEKLY_SPOTLIGHT = [
-  {
-    tag: "Food Concept",
-    date: "",
-    title: "Rail Coach Restaurant Concept, Kerala",
-    text: "A decommissioned railway coach is being converted into an air-conditioned restaurant experience with seating, kitchen setup, takeaway, and online booking support.",
-    takeaway: "Unique hospitality concepts work when the visual story is supported by safe kitchen planning, service flow, maintenance, and daily operating discipline.",
-    img: "./images/rail-coach-restaurant-kerala.jpg"
-  }
+  { tag: "Luxury Hospitality", date: "July 2026", title: "Shinta Mani Mustang: Luxury Built Around Place", text: "Located above Jomsom in Nepal’s remote Mustang region, Shinta Mani Mustang is a 29-suite Himalayan retreat designed by renowned architect Bill Bensley. Surrounded by dramatic mountains and the ancient culture of the former Kingdom of Mustang, the property offers guests an exceptional sense of privacy, discovery and connection to its destination.<br><br>Its design draws inspiration from traditional Tibetan architecture while combining understated luxury with highly personalised service. Instead of depending only on expensive decoration, the hotel uses its natural surroundings, architecture, cultural identity and thoughtful hospitality to create a complete guest experience.<br><br>Carefully curated all-inclusive experiences introduce guests to local villages, ancient monasteries, remote landscapes, regional cuisine and Mustang’s distinctive cultural heritage. These experiences allow visitors to understand and connect with the destination rather than simply stay in a luxury room.<br><br>The hotel’s strength comes from the consistency of its complete hospitality concept. Its location, design, local culture, personalised service and meaningful guest experiences all communicate one connected story.<br><br>Shinta Mani Mustang was ranked No. 1 by Robb Report in its 50 Greatest Luxury Hotels on Earth 2026.", takeaway: "Luxury becomes distinctive when architecture, local culture, landscape and service tell one consistent story. Place should shape the guest journey, not remain a decorative theme.", img: "./images/shinta-mani-mustang-place.jpg" }
 ];
-
 window.WA_PHONE = "919867378209";
 window.WA_MESSAGE = "Hi, I saw your Hotel & QSR Operations Insights page. I want help with kitchen SOP / costing / workflow. Let's connect.";

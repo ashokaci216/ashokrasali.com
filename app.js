@@ -28,7 +28,7 @@ function renderFunFacts(list){
         <span class="tag">${safeText(item.label)}</span>
         <h3 class="fact">${safeText(item.fact)}</h3>
         <p class="why"><b>Why it matters:</b> ${safeText(item.why)}</p>
-        <div class="insight"><b>Consultant insight:</b> ${safeText(item.insight)}</div>
+        <div class="insight"><b>Practical insight:</b> ${safeText(item.insight)}</div>
         <span class="read-more">Read insight →</span>
       </div>
     `;
