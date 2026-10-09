@@ -454,88 +454,112 @@ window.WEEKLY_SPOTLIGHT = [
     "status": "published"
   },
   {
-    "id": "taj-tadoba-october-2026",
-    "title": "Taj Tadoba: Luxury Hospitality Meets the Wilderness",
-    "location": "Near Tadoba-Andhari Tiger Reserve, Maharashtra",
-    "category": "Wildlife Luxury Resort",
+    "id": "luxury-nature-october-2026",
+    "title": "Luxury Hospitality in Nature",
+    "location": "",
+    "category": "Hospitality & Landscape",
     "startDate": "2026-10-05",
     "endDate": "2026-10-11",
-    "image": null,
-    "imageAlt": "Taj Tadoba Resort & Spa — licensed property photograph pending",
+    "image": "./images/spotlight-luxury-nature.jpg",
+    "imageAlt": "Palm trees, planted paths and water features in a tropical resort garden; representative editorial photograph.",
     "description": [
-      "Opened in September 2026, Taj Tadoba Resort & Spa brings a luxury hospitality experience to one of Maharashtra’s best-known wildlife destinations. The 17-acre resort offers 35 accommodation units, comprising 33 villas and two suites. The property’s identity is shaped by its location, combining the appeal of wildlife tourism with private accommodation and Taj’s hospitality positioning.",
-      "Why it stands out: A destination resort can create a stronger identity when its architecture, surroundings and guest experience work together."
+      "Luxury in a natural setting begins with room to slow down. A shaded path, a quiet seat beside water and a view framed by planting can make a stay feel generous without filling every corner with decoration. The landscape becomes part of the welcome, giving guests choices about where to pause, explore or spend time together.",
+      "Comfort still depends on details that a photograph cannot show: safe walking surfaces, shade at the right hours, well-maintained outdoor furniture and attentive service. Thoughtful hospitality connects these practical needs with the pleasure of being outdoors.",
+      "Why it stands out: Gardens and water features create a sequence of small experiences rather than a single impressive view. Their value comes from how comfortably guests can use them.",
+      "Image note: This is a representative photograph illustrating the editorial theme, not a feature about a named hotel or resort."
     ],
-    "takeaway": "A memorable property does not depend on luxurious interiors alone. A clear connection to the destination can be an important part of its competitive advantage.",
+    "takeaway": "Hospitality insight: Plan outdoor spaces as service areas. Assign responsibility for cleaning, lighting, seating and weather checks, and make access comfortable so the landscape contributes to the stay every day.",
     "source": {
-      "name": "IHCL — official property opening announcement",
-      "url": "https://ir.ihcltata.com/news/taj-tadoba-resort-spa-nagpur-opens-its-doors/"
+      "name": "Photograph: Kseniya Kobi / Pexels",
+      "url": "https://www.pexels.com/photo/garden-resort-with-palm-trees-near-swimming-pool-8159777/"
     },
-    "imageStatus": "awaiting-licensed-property-photo",
-    "status": "draft"
+    "imageCredit": {
+      "name": "Kseniya Kobi / Pexels",
+      "url": "https://www.pexels.com/photo/garden-resort-with-palm-trees-near-swimming-pool-8159777/"
+    },
+    "imageStatus": "licensed-representative-photo",
+    "status": "published"
   },
   {
-    "id": "ginger-goa-arpora-october-2026",
-    "title": "Ginger Goa, Arpora: The Value of Smart Hospitality Design",
-    "location": "Arpora, North Goa",
-    "category": "Contemporary Midscale Hotel",
+    "id": "smart-design-october-2026",
+    "title": "Smart Hospitality Design",
+    "location": "",
+    "category": "Design & Operations",
     "startDate": "2026-10-12",
     "endDate": "2026-10-18",
-    "image": null,
-    "imageAlt": "Ginger Goa, Arpora — licensed property photograph pending",
+    "image": "./images/spotlight-smart-design.jpg",
+    "imageAlt": "Bright contemporary lobby with a clear central walkway, white seating and indoor plants; representative editorial photograph.",
     "description": [
-      "Ginger Goa, Arpora represents IHCL’s contemporary midscale hospitality approach. The 77-room hotel combines guest accommodation with social spaces, Qmin all-day dining, a pool café and bar, and facilities for events and celebrations. Its positioning demonstrates how a hotel can bring several guest needs together within a practical, contemporary service format.",
-      "Why it stands out: The property’s approach balances accommodation, dining and social experiences without relying on the traditional large luxury-hotel model."
+      "A well-designed hospitality space makes the next step feel obvious. Guests should be able to recognise the entrance, find assistance and move towards their room or table without negotiating furniture or searching for directions. Clear routes and comfortable waiting spaces can make even a compact property feel calm and welcoming.",
+      "Smart design also considers the people running the space. Durable finishes, reachable cleaning surfaces, useful storage and sensible placement of equipment reduce avoidable work. A beautiful lobby earns its place when it supports both the guest journey and the daily service routine.",
+      "Why it stands out: A clear circulation route and a restrained furniture arrangement let light, space and usability do much of the work. The lesson is practical clarity, rather than adding more facilities.",
+      "Image note: This is a representative photograph illustrating the editorial theme, not a feature about a named hotel or resort."
     ],
-    "takeaway": "Good service design is not always about adding more facilities. It is about selecting the right facilities, making them convenient and operating them consistently.",
+    "takeaway": "Hospitality insight: Walk through the space as a first-time guest and then as a staff member carrying supplies. Resolve points of confusion, obstruction and repeated backtracking before investing in extra decorative features.",
     "source": {
-      "name": "IHCL — official property opening announcement",
-      "url": "https://www.ihcltata.com/press-room/ihcl-announces-the-opening-of-ginger-goa-arpora"
+      "name": "Photograph: Max Vakhtbovych / Pexels",
+      "url": "https://www.pexels.com/photo/modern-spacious-lobby-of-luxury-hotel-6758532/"
     },
-    "imageStatus": "awaiting-licensed-property-photo",
-    "status": "draft"
+    "imageCredit": {
+      "name": "Max Vakhtbovych / Pexels",
+      "url": "https://www.pexels.com/photo/modern-spacious-lobby-of-luxury-hotel-6758532/"
+    },
+    "imageStatus": "licensed-representative-photo",
+    "status": "published"
   },
   {
-    "id": "taj-puri-october-2026",
-    "title": "Taj Puri: Local Heritage as a Hospitality Experience",
-    "location": "Puri, Odisha",
-    "category": "Coastal Luxury Resort",
+    "id": "heritage-hospitality-october-2026",
+    "title": "Heritage-Inspired Hospitality",
+    "location": "",
+    "category": "Culture & Guest Experience",
     "startDate": "2026-10-19",
     "endDate": "2026-10-25",
-    "image": null,
-    "imageAlt": "Taj Puri Resort & Spa — licensed property photograph pending",
+    "image": "./images/spotlight-heritage.jpg",
+    "imageAlt": "Traditional Moroccan courtyard with carved arches, patterned tiles and seating, viewed from above; representative editorial photograph.",
     "description": [
-      "Taj Puri Resort & Spa is a 90-key beachfront resort near the Bay of Bengal. Its design draws from Odisha’s Kalinga architectural heritage, incorporating regionally associated stonework, Pattachitra art, Ikat textiles and terracotta elements. The result is a hospitality concept that connects luxury accommodation with the artistic and cultural identity of its destination.",
-      "Why it stands out: Rather than relying on a generic luxury aesthetic, the property uses regional design traditions to communicate its sense of place."
+      "Heritage can give a hospitality space a vocabulary of its own. Courtyard proportions, carved surfaces, patterned tiles and handmade furnishings invite guests to notice the work of local makers. Used thoughtfully, these details create a sense of continuity between the building, its surroundings and the experience of staying there.",
+      "The strongest interpretation goes beyond decoration. Operators can explain how materials are made, work with craftspeople on repairs and introduce regional flavours through food and service. Modern comfort and accessibility should be considered alongside the care of older forms and delicate finishes.",
+      "Why it stands out: Repeated arches and tile patterns make the courtyard feel connected at every level. Craft becomes part of the whole space, rather than an isolated display.",
+      "Image note: This representative Moroccan courtyard photograph illustrates the editorial theme; the text does not review or describe the operations of the pictured property."
     ],
-    "takeaway": "Local design, craft and storytelling can make a hospitality brand more distinctive and memorable.",
+    "takeaway": "Hospitality insight: Give heritage details an upkeep plan and an accurate story. Record materials, repair contacts and suitable cleaning methods, and help staff explain the craft without inventing history or making unsupported claims.",
     "source": {
-      "name": "IHCL — official property opening announcement",
-      "url": "https://www.ihcltata.com/press-room/ihcl-unveils-taj-puri-resort-spa-landmark-in-the-sacred-city-of-puri"
+      "name": "Photograph: Moussa Idrissi / Pexels",
+      "url": "https://www.pexels.com/photo/interior-of-the-riad-palais-sebban-marrakesh-morocco-15531325/"
     },
-    "imageStatus": "awaiting-licensed-property-photo",
-    "status": "draft"
+    "imageCredit": {
+      "name": "Moussa Idrissi / Pexels",
+      "url": "https://www.pexels.com/photo/interior-of-the-riad-palais-sebban-marrakesh-morocco-15531325/"
+    },
+    "imageStatus": "licensed-representative-photo",
+    "status": "published"
   },
   {
-    "id": "corbett-hideaway-october-2026",
-    "title": "Corbett Hideaway: Creating Value Through Nature",
-    "location": "Jim Corbett, Uttarakhand",
-    "category": "Riverside Nature Resort",
+    "id": "design-around-nature-october-2026",
+    "title": "Designing Hospitality Around Nature",
+    "location": "",
+    "category": "Nature & Service Planning",
     "startDate": "2026-10-26",
     "endDate": "2026-11-01",
-    "image": null,
-    "imageAlt": "Corbett Hideaway – IHCL SeleQtions — licensed property photograph pending",
+    "image": "./images/spotlight-nature-design.jpg",
+    "imageAlt": "Small cabins in a green clearing framed by tall evergreen trees; representative editorial photograph.",
     "description": [
-      "Corbett Hideaway – IHCL SeleQtions offers a nature-oriented hospitality experience along the Kosi River in Uttarakhand. The resort occupies seven acres and includes 80 accommodation keys, private sit-outs and landscaped outdoor spaces. Its positioning highlights the appeal of a peaceful natural setting where the surrounding environment becomes an important part of the guest experience.",
-      "Why it stands out: Outdoor spaces, river views and the character of the location contribute to the property’s identity beyond its accommodation offering."
+      "A woodland setting changes how hospitality needs to work. Buildings, paths and places to gather can be arranged to make the surrounding landscape easy to enjoy while giving guests a comfortable base. Views and quiet corners matter, but so do drainage, dependable access and a clear route back after dark.",
+      "Designing around nature means planning for changing conditions. Rain, temperature, insects and seasonal maintenance affect what guests can do and how staff deliver service. The appeal of a secluded stay is stronger when those practical needs are anticipated and communicated clearly.",
+      "Why it stands out: Small buildings within a green clearing suggest a different pace from a dense urban property. The trees frame the setting and make the relationship between shelter and open space easy to see.",
+      "Image note: This is a representative photograph of cabins in a natural setting. It does not identify them as a named hotel or resort, or claim that they operate as guest accommodation."
     ],
-    "takeaway": "A resort’s natural surroundings can provide value when they are thoughtfully integrated into guest comfort, service delivery and the overall stay experience.",
+    "takeaway": "Hospitality insight: Match the service promise to the setting. Prepare weather alternatives, maintain paths and drainage, plan deliveries and emergency access, and give guests useful guidance before they arrive.",
     "source": {
-      "name": "IHCL — official property opening announcement",
-      "url": "https://ir.ihcltata.com/news/step-into-corbett-hideaway-ihcl-seleqtions-in-uttarakhand/"
+      "name": "Photograph: Farhaan Mushtaq Parimoo / Pexels",
+      "url": "https://www.pexels.com/photo/a-small-cabin-in-the-middle-of-a-forest-26924352/"
     },
-    "imageStatus": "awaiting-licensed-property-photo",
-    "status": "draft"
+    "imageCredit": {
+      "name": "Farhaan Mushtaq Parimoo / Pexels",
+      "url": "https://www.pexels.com/photo/a-small-cabin-in-the-middle-of-a-forest-26924352/"
+    },
+    "imageStatus": "licensed-representative-photo",
+    "status": "published"
   }
 ];
 window.WA_PHONE = "919867378209";
