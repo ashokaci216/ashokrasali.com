@@ -74,10 +74,13 @@
       </div>
     </section>
 
-    <!-- CONTROLS -->
-    <section class="controls" id="insights">
-      <input class="input" id="search" placeholder="Search (e.g., SOP, cost, momo, domino’s, central kitchen)" />
-      <select id="filter">
+    <!-- Latest insights and archive share the existing renderer and controls. -->
+    <section id="insights" aria-labelledby="insightsHeading">
+    <h2 class="insights-heading" id="insightsHeading">Latest Insights</h2>
+    <p class="insights-note" id="insightsNote">The latest six published insights.</p>
+    <section class="controls" aria-label="Search and filter insights">
+      <input class="input" id="search" type="search" aria-label="Search insights" placeholder="Search (e.g., SOP, cost, momo, domino’s, central kitchen)" />
+      <select id="filter" aria-label="Filter by category">
         <option value="all">All topics</option>
         <option value="news">News</option>
         <option value="operations">Operations</option>
@@ -89,18 +92,28 @@
     </section>
 
     <!-- FUN FACTS -->
-    <section class="grid" id="cards"></section>
+    <p class="insights-note" id="insightsStatus" role="status" aria-live="polite"></p>
+    <section class="grid" id="cards" aria-label="Insight articles"></section>
+    <div class="insights-links">
+      <a class="btn" id="archiveLink" href="#explore-insights">Explore All Insights</a>
+      <a class="btn" id="latestLink" href="#insights" hidden>← Back to Latest Insights</a>
+    </div>
+    </section>
 
     <div class="modal hidden" id="insightModal" aria-hidden="true">
       <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
         <button class="modal-close" id="modalClose" type="button" aria-label="Close insight">×</button>
         <span class="modal-tag" id="modalTag"></span>
+        <time class="article-date" id="modalDate" hidden></time>
         <h2 id="modalTitle"></h2>
         <p class="modal-text" id="modalText"></p>
+        <div class="modal-text article-body" id="modalBody"></div>
         <div class="modal-takeaway">
           <b>Operator takeaway</b>
           <p id="modalTakeaway"></p>
         </div>
+        <p class="article-source" id="modalSource" hidden></p>
+        <a class="read-more" id="modalPermalink" href="#insights">Link to this insight</a>
       </div>
     </div>
 
