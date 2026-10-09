@@ -43,12 +43,19 @@ function validateContent(list, type){
   const ids = new Set(), slugs = new Set();
   let rejected = 0;
   const valid = list.filter(item => {
+    // A Spotlight draft can await a licensed photo. Published content must have one.
+    const awaitingPhoto = type === 'spotlight' && item?.status === 'draft' && item.image === null;
     let ok = item && typeof item === 'object' &&
-      ['id','title','image','imageAlt'].every(key => typeof item[key] === 'string' && item[key].trim()) &&
-      safeURL(item.image) && ['draft','published'].includes(item.status) && !ids.has(item.id);
+      ['id','title','imageAlt'].every(key => typeof item[key] === 'string' && item[key].trim()) &&
+      (awaitingPhoto || (typeof item.image === 'string' && item.image.trim() && safeURL(item.image))) &&
+      ['draft','published'].includes(item.status) && !ids.has(item.id);
     if(ok && item.source != null){
       ok = typeof item.source === 'object' && typeof item.source.name === 'string' &&
         item.source.name.trim() && (!item.source.url || safeURL(item.source.url));
+    }
+    if(ok && item.imageCredit != null){
+      ok = typeof item.imageCredit === 'object' && typeof item.imageCredit.name === 'string' &&
+        item.imageCredit.name.trim() && safeURL(item.imageCredit.url);
     }
     if(ok && type === 'article'){
       ok = typeof item.slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.slug) &&
@@ -210,8 +217,11 @@ function openInsightModal(item){
   if(item.publicationDate) date.dateTime = item.publicationDate;
   else date.removeAttribute('datetime');
   const source = $('modalSource');
-  source.hidden = !item.source;
-  source.innerHTML = item.source ? `Source: ${sourceMarkup(item.source)}` : '';
+  source.hidden = !item.source && !item.imageCredit;
+  source.innerHTML = [
+    item.source ? `Source: ${sourceMarkup(item.source)}` : '',
+    item.imageCredit ? `Representative photo: ${sourceMarkup(item.imageCredit)}` : ''
+  ].filter(Boolean).join('<br>');
   $('modalPermalink').href = articleHash(item);
   modal.classList.remove('hidden');
   modal.setAttribute('aria-hidden', 'false');

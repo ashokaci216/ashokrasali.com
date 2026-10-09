@@ -1,0 +1,231 @@
+{
+  "package": "Ashokrasali_October_2026_Content_Package.docx",
+  "reviewDate": "2026-10-09",
+  "articleIds": [
+    "insight-010",
+    "insight-011",
+    "insight-012",
+    "insight-013",
+    "insight-014",
+    "insight-015"
+  ],
+  "publication": "Final user approval granted for the six October articles. The four October Spotlights remain unpublished drafts pending licensed property photographs.",
+  "license": {
+    "name": "Pexels License",
+    "url": "https://www.pexels.com/license/",
+    "verifiedOn": "2026-10-09",
+    "permittedUse": "Website editorial illustration, commercial use, resizing and compression.",
+    "attribution": "Optional under Pexels License; photographer credits are retained and displayed in article modals.",
+    "restrictions": [
+      "No implied endorsement.",
+      "No misleading identification as actual branded facilities or products.",
+      "No offensive portrayal of identifiable people.",
+      "No unaltered resale, stock redistribution or trademark use."
+    ]
+  },
+  "images": [
+    {
+      "id": "32293375",
+      "file": "./images/october-pizza-kitchen.jpg",
+      "photographer": "Yusuf Çelik",
+      "downloadUrl": "https://images.pexels.com/photos/32293375/pexels-photo-32293375.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80&fm=jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 130136,
+      "sha256": "b60cb786987bf4e1941ec9a8fb5f36920eab4dc7f90cd384413295edee60e258",
+      "articleId": "insight-010",
+      "photoPage": "https://www.pexels.com/photo/chef-in-restaurant-kitchen-with-pizza-ovens-32293375/",
+      "credit": "Yusuf Çelik / Pexels",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedOn": "2026-10-09",
+      "approvedByUser": true,
+      "optimization": "Pexels CDN JPEG compression quality 80, width 1200px, original aspect ratio retained.",
+      "caption": "Representative photograph of a chef beside pizza ovens in a restaurant kitchen; not a Domino’s outlet."
+    },
+    {
+      "id": "8272619",
+      "file": "./images/october-french-fries.jpg",
+      "photographer": "Engin Akyurt",
+      "downloadUrl": "https://images.pexels.com/photos/8272619/pexels-photo-8272619.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80&fm=jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 65234,
+      "sha256": "51222c956cdfbe8f308747efcf347fe8f197d2d78f64f68b7a3ceef7cd806130",
+      "articleId": "insight-011",
+      "photoPage": "https://www.pexels.com/photo/macro-shot-of-french-fries-8272619/",
+      "credit": "Engin Akyurt / Pexels",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedOn": "2026-10-09",
+      "approvedByUser": true,
+      "optimization": "Pexels CDN JPEG compression quality 80, width 1200px, original aspect ratio retained.",
+      "caption": "Representative photograph of cooked French fries; not a HyFun product or facility."
+    },
+    {
+      "id": "6284909",
+      "file": "./images/october-daily-control.jpg",
+      "photographer": "Gustavo Fring",
+      "downloadUrl": "https://images.pexels.com/photos/6284909/pexels-photo-6284909.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80&fm=jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 113017,
+      "sha256": "a4930ace5de37d5a1134a0e66e394ccd8e669bda6b8e53d2e38c7a9a9f151f1e",
+      "articleId": "insight-012",
+      "photoPage": "https://www.pexels.com/photo/businessmen-looking-on-tablet-and-documents-in-restaurant-6284909/",
+      "credit": "Gustavo Fring / Pexels",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedOn": "2026-10-09",
+      "approvedByUser": true,
+      "optimization": "Pexels CDN JPEG compression quality 80, width 1200px, original aspect ratio retained.",
+      "caption": "Representative photograph of two people reviewing documents and a tablet in a restaurant."
+    },
+    {
+      "id": "7299855",
+      "file": "./images/october-portion-weighing.jpg",
+      "photographer": "Ksenia Chernaya",
+      "downloadUrl": "https://images.pexels.com/photos/7299855/pexels-photo-7299855.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80&fm=jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 62008,
+      "sha256": "1d318e05f92f5402dfbfecc773d757df6d102464bbd57c5f84cdc193eb6ad6bb",
+      "articleId": "insight-013",
+      "photoPage": "https://www.pexels.com/photo/a-person-weighing-the-ingredients-on-the-bowl-7299855/",
+      "credit": "Ksenia Chernaya / Pexels",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedOn": "2026-10-09",
+      "approvedByUser": true,
+      "optimization": "Pexels CDN JPEG compression quality 80, width 1200px, original aspect ratio retained.",
+      "caption": "Representative photograph of a hand weighing a bowl of ingredients on a kitchen scale."
+    },
+    {
+      "id": "13432282",
+      "file": "./images/october-direct-ordering.jpg",
+      "photographer": "Mizuno K",
+      "downloadUrl": "https://images.pexels.com/photos/13432282/pexels-photo-13432282.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80&fm=jpg",
+      "width": 1200,
+      "height": 1800,
+      "bytes": 231826,
+      "sha256": "c9324979f52c17af8890b4c3a227b13e592483deae9e3df26fe120090fd12f49",
+      "articleId": "insight-014",
+      "photoPage": "https://www.pexels.com/photo/man-ordering-food-on-smartphone-13432282/",
+      "credit": "Mizuno K / Pexels",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedOn": "2026-10-09",
+      "approvedByUser": true,
+      "optimization": "Pexels CDN JPEG compression quality 80, width 1200px, original aspect ratio retained.",
+      "caption": "Representative photograph of a person using a smartphone to order food online."
+    },
+    {
+      "id": "32673814",
+      "file": "./images/october-temperature-check.jpg",
+      "photographer": "Gu Ko",
+      "downloadUrl": "https://images.pexels.com/photos/32673814/pexels-photo-32673814.jpeg?auto=compress&cs=tinysrgb&w=1200&q=80&fm=jpg",
+      "width": 1200,
+      "height": 2133,
+      "bytes": 106267,
+      "sha256": "b334b843c772b18eab67e4ccd2d4bd87b1a3703c80254c3e41e9d8b1c632e726",
+      "articleId": "insight-015",
+      "photoPage": "https://www.pexels.com/photo/measuring-milk-temperature-with-a-digital-thermometer-32673814/",
+      "credit": "Gu Ko / Pexels",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "downloadedOn": "2026-10-09",
+      "approvedByUser": true,
+      "optimization": "Pexels CDN JPEG compression quality 80, width 1200px, original aspect ratio retained.",
+      "caption": "Representative photograph of milk temperature measurement with a digital thermometer; not a cold-storage receiving inspection."
+    }
+  ],
+  "sources": [
+    {
+      "articleId": "insight-010",
+      "name": "Reuters, 7 October 2026 — report by Payel Das, republished by MarketScreener",
+      "url": "https://www.marketscreener.com/news/india-s-jubilant-foodworks-posts-higher-quarterly-revenue-as-domino-s-sales-pick-up-ce785dded88ff02d"
+    },
+    {
+      "articleId": "insight-011",
+      "name": "Reuters, 6 October 2026 — republished by Business Recorder",
+      "url": "https://www.brecorder.com/news/40442859/mcdonalds-supplier-hyfun-plans-208-million-india-ipo"
+    },
+    {
+      "articleId": "insight-012",
+      "name": "Ashok Rasali — original operational guidance",
+      "url": null
+    },
+    {
+      "articleId": "insight-013",
+      "name": "Ashok Rasali — original illustrative calculations",
+      "url": null
+    },
+    {
+      "articleId": "insight-014",
+      "name": "Ashok Rasali — original operational guidance",
+      "url": null
+    },
+    {
+      "articleId": "insight-015",
+      "name": "FSSAI — Safe Storage, Distribution & Transportation handbook, receiving guidance",
+      "url": "https://fostac.fssai.gov.in/doc/Food%20Safety%20training%20manual%20storage%2C%20transportation%20v2%20-%20June%2014%2C%202017%20with%20checklist.pdf"
+    }
+  ],
+  "verificationNotes": [
+    "October 7 Reuters report verified through Reuters-attributed MarketScreener republication; no direct Reuters URL fabricated.",
+    "Reuters report rounds revenue to 26.09 billion rupees; the exact document figure and India store counts were cross-checked against the October 7 CNBC-TV18 business-update report.",
+    "HyFun October 6 Reuters report verified in the approved Business Recorder republication.",
+    "FSSAI handbook receiving guidance supports chilled deliveries at or below 5°C and frozen deliveries at or below −18°C.",
+    "Before publication, the legacy fostacold host did not respond. The identical handbook filename on the current official fostac.fssai.gov.in host returned HTTP 200 with application/pdf; the article source link was updated accordingly.",
+    "All six article bodies extracted from document OOXML paragraph text without shortening; no document workflow instructions inserted into article bodies."
+  ],
+  "pendingSpotlights": [
+    {
+      "id": "taj-tadoba-october-2026",
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "status": "draft",
+      "image": null,
+      "imageStatus": "awaiting-licensed-property-photo",
+      "source": {
+        "name": "IHCL — official property opening announcement",
+        "url": "https://ir.ihcltata.com/news/taj-tadoba-resort-spa-nagpur-opens-its-doors/"
+      },
+      "requirement": "Genuine photograph of this property with verified republication licence and required credit before image assignment and publication."
+    },
+    {
+      "id": "ginger-goa-arpora-october-2026",
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "status": "draft",
+      "image": null,
+      "imageStatus": "awaiting-licensed-property-photo",
+      "source": {
+        "name": "IHCL — official property opening announcement",
+        "url": "https://www.ihcltata.com/press-room/ihcl-announces-the-opening-of-ginger-goa-arpora"
+      },
+      "requirement": "Genuine photograph of this property with verified republication licence and required credit before image assignment and publication."
+    },
+    {
+      "id": "taj-puri-october-2026",
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "status": "draft",
+      "image": null,
+      "imageStatus": "awaiting-licensed-property-photo",
+      "source": {
+        "name": "IHCL — official property opening announcement",
+        "url": "https://www.ihcltata.com/press-room/ihcl-unveils-taj-puri-resort-spa-landmark-in-the-sacred-city-of-puri"
+      },
+      "requirement": "Genuine photograph of this property with verified republication licence and required credit before image assignment and publication."
+    },
+    {
+      "id": "corbett-hideaway-october-2026",
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "status": "draft",
+      "image": null,
+      "imageStatus": "awaiting-licensed-property-photo",
+      "source": {
+        "name": "IHCL — official property opening announcement",
+        "url": "https://ir.ihcltata.com/news/step-into-corbett-hideaway-ihcl-seleqtions-in-uttarakhand/"
+      },
+      "requirement": "Genuine photograph of this property with verified republication licence and required credit before image assignment and publication."
+    }
+  ],
+  "tadobaCorrection": "The 17-acre resort offers 35 accommodation units, comprising 33 villas and two suites."
+}
